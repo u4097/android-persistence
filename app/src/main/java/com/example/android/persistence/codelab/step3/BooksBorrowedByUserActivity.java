@@ -16,13 +16,13 @@
 
 package com.example.android.persistence.codelab.step3;
 
-import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
 import com.example.android.codelabs.persistence.R;
 import com.example.android.persistence.codelab.db.Book;
 
